@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB7B56DE24540F530008515F /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B56DD24540F530008515F /* CosmosDistrib.swift */; };
+		ABD99CC424542ECD000DCA9D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD99CC324542ECD000DCA9D /* MapViewController.swift */; };
+		ABE313052452B10D0062DD2F /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE313042452B10D0062DD2F /* PopularCollectionViewCell.swift */; };
+		ABE313072452B3A50062DD2F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE313062452B3A50062DD2F /* Business.swift */; };
 		ABF37CAE2445FCDB00993800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CAD2445FCDB00993800 /* AppDelegate.swift */; };
 		ABF37CB02445FCDB00993800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CAF2445FCDB00993800 /* SceneDelegate.swift */; };
 		ABF37CB22445FCDB00993800 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CB12445FCDB00993800 /* SignUpViewController.swift */; };
@@ -17,9 +21,14 @@
 		ABF37CC42445FDD900993800 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CC32445FDD900993800 /* UIColor+Extension.swift */; };
 		ABF37CC624460D8D00993800 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CC524460D8D00993800 /* SportsViewController.swift */; };
 		ABF37CC82446C25A00993800 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF37CC72446C25A00993800 /* MainTableViewController.swift */; };
+		ABFAE9D7244D546E00B0ED83 /* HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFAE9D6244D546D00B0ED83 /* HomePageTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB7B56DD24540F530008515F /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		ABD99CC324542ECD000DCA9D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ABE313042452B10D0062DD2F /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABE313062452B3A50062DD2F /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		ABF37CAA2445FCDB00993800 /* Lado-E-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lado-E-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF37CAD2445FCDB00993800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF37CAF2445FCDB00993800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +41,7 @@
 		ABF37CC32445FDD900993800 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		ABF37CC524460D8D00993800 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 		ABF37CC72446C25A00993800 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		ABFAE9D6244D546D00B0ED83 /* HomePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABD99CC024542E0D000DCA9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABE313042452B10D0062DD2F /* PopularCollectionViewCell.swift */,
+				ABF37CC12445FDB000993800 /* CustomTextFields.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABD99CC124542E2D000DCA9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABE313062452B3A50062DD2F /* Business.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABD99CC224542E6E000DCA9D /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				AB7B56DD24540F530008515F /* CosmosDistrib.swift */,
+				ABF37CB62445FCE900993800 /* Assets.xcassets */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		ABD99CC524542ED9000DCA9D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ABF37CB32445FCDB00993800 /* Main.storyboard */,
+				ABF37CB82445FCE900993800 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ABD99CC624542EE9000DCA9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ABF37CC32445FDD900993800 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ABD99CC724542EF5000DCA9D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ABF37CAF2445FCDB00993800 /* SceneDelegate.swift */,
+				ABF37CAD2445FCDB00993800 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		ABF37CA12445FCDB00993800 = {
 			isa = PBXGroup;
 			children = (
@@ -64,15 +126,14 @@
 		ABF37CAC2445FCDB00993800 /* Lado-E-A */ = {
 			isa = PBXGroup;
 			children = (
+				ABD99CC724542EF5000DCA9D /* Delegates */,
+				ABD99CC624542EE9000DCA9D /* Extensions */,
+				ABD99CC524542ED9000DCA9D /* Storyboards */,
+				ABD99CC224542E6E000DCA9D /* Add-ons */,
+				ABD99CC124542E2D000DCA9D /* Model */,
+				ABD99CC024542E0D000DCA9D /* View */,
 				ABF37CC92446C26700993800 /* Controllers */,
-				ABF37CC32445FDD900993800 /* UIColor+Extension.swift */,
-				ABF37CAD2445FCDB00993800 /* AppDelegate.swift */,
-				ABF37CAF2445FCDB00993800 /* SceneDelegate.swift */,
-				ABF37CB32445FCDB00993800 /* Main.storyboard */,
-				ABF37CB62445FCE900993800 /* Assets.xcassets */,
-				ABF37CB82445FCE900993800 /* LaunchScreen.storyboard */,
 				ABF37CBB2445FCE900993800 /* Info.plist */,
-				ABF37CC12445FDB000993800 /* CustomTextFields.swift */,
 			);
 			path = "Lado-E-A";
 			sourceTree = "<group>";
@@ -83,6 +144,8 @@
 				ABF37CB12445FCDB00993800 /* SignUpViewController.swift */,
 				ABF37CC72446C25A00993800 /* MainTableViewController.swift */,
 				ABF37CC524460D8D00993800 /* SportsViewController.swift */,
+				ABFAE9D6244D546D00B0ED83 /* HomePageTableViewController.swift */,
+				ABD99CC324542ECD000DCA9D /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,11 +223,16 @@
 			files = (
 				ABF37CC22445FDB000993800 /* CustomTextFields.swift in Sources */,
 				ABF37CB22445FCDB00993800 /* SignUpViewController.swift in Sources */,
+				ABE313072452B3A50062DD2F /* Business.swift in Sources */,
 				ABF37CAE2445FCDB00993800 /* AppDelegate.swift in Sources */,
+				ABFAE9D7244D546E00B0ED83 /* HomePageTableViewController.swift in Sources */,
 				ABF37CC624460D8D00993800 /* SportsViewController.swift in Sources */,
 				ABF37CB02445FCDB00993800 /* SceneDelegate.swift in Sources */,
+				ABD99CC424542ECD000DCA9D /* MapViewController.swift in Sources */,
+				ABE313052452B10D0062DD2F /* PopularCollectionViewCell.swift in Sources */,
 				ABF37CC42445FDD900993800 /* UIColor+Extension.swift in Sources */,
 				ABF37CC82446C25A00993800 /* MainTableViewController.swift in Sources */,
+				AB7B56DE24540F530008515F /* CosmosDistrib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

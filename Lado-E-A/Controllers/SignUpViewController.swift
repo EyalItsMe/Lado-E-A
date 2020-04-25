@@ -35,7 +35,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                }
            }
     //אתה צריך לשמור את ה nameTextfield,emailtextfield,passwordtextfield.text בבסיס נתונים כשם, איימיל וסיסמא
-
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 //MARK: View Controller Life Cycle -
     
     override func viewDidLoad() {
